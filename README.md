@@ -2,7 +2,7 @@
 
 Take the following code to take the number entered in and dynamically allocate memory for the array instead of having it by set in stone to 6 here:
 
-C++
+```C++
 #include <iostream>
 
 int main() {
@@ -29,4 +29,7 @@ int main() {
 
   return 0;
 }
+
+```
+
 You will just need to add some user input, and probably a while loop to collect the data.  Then use the number of elements entered to make an array at runtime and do the summation!
